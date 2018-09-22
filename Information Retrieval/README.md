@@ -11,3 +11,7 @@
 + Easier for many people to use
 + Often more accurate
 + Considered the state-of-the-art today in many situations
+
+## Reference
+
++ 11-642 Search Engines, Jamie Callan, CMU
