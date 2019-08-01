@@ -1,9 +1,10 @@
 """
-https://github.com/lancopku/PKUSeg-python
+分词
+pinyin 变化距离
 """
 
-import pkuseg
-import dimsim
+import pkuseg  # https://github.com/lancopku/PKUSeg-python
+import dimsim  # https://github.com/System-T/DimSim
 
 
 def main():
@@ -24,6 +25,14 @@ def main():
     print(dimsim.get_distance("侵权", "亲选"))
     print(dimsim.get_distance("侵", "亲"))
     print(dimsim.get_distance("权", "选"))
+
+    print(dimsim.get_distance('垃圾', '辣鸡'))
+    print(dimsim.get_distance('垃', '辣'))
+    print(dimsim.get_distance('圾', '鸡'))
+
+    print(dimsim.get_distance('经营', '精英'))
+    print(dimsim.get_distance('经', '精'))
+    print(dimsim.get_distance('营', '英'))
 
 
 if __name__ == '__main__':
