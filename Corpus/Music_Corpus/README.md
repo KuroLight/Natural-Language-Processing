@@ -1,10 +1,10 @@
-# 比较大规模中文歌曲语料
+# 比较大规模中文歌曲语料（夸张估计约34万条）
 
 ## 版本更新
 
-- v1.0 2019.08.11
+- v1.0 - 2019.08.11
     - 歌手：
-        - 数据格式：artist_id\tartist_name
+        - 数据格式：u'artist_id\tartist_name'
         - 华语男歌手 2429 位，见data/chinese_men.txt
         - 华语女歌手 2263 位，见data/chinese_women.txt
         - 华语组合/乐队 2281 位，见data/chinese_band.txt
