@@ -8,3 +8,8 @@
 ps ax | grep python # this command will list the python process backend.
 kill -9 pid # choose the running processes to kill
 ```
+
+- Turn off
+```bash
+bert-serving-terminate -port 5555
+```
